@@ -105,7 +105,6 @@ const MyTable = () => {
           <td>午餐（餐盒）</td>
           <td colSpan="2">
             午餐（自理）、成功湖合照<br/>
-            學生叢集競賽座談會
           </td>
         </tr>
         <tr>
@@ -123,7 +122,7 @@ const MyTable = () => {
             作業檢討<br/>
           </td>
           <td rowSpan="2">
-            應用程式安裝<br/>
+            {/* <br/> */}
           </td>
         </tr>
         <tr>
