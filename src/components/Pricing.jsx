@@ -32,7 +32,7 @@ export const Pricing = () => {
   };
 
   const handleButtonClick = () => {
-    window.open('https://forms.gle/mkg2vmdtAeU7hV4J6', '_blank');
+    window.open('https://forms.gle/gqaH4VSKE2vjHkFQ9', '_blank');
   };
 
   return (
@@ -162,18 +162,18 @@ export const Pricing = () => {
                   </ul>
                 </div>
               </div>
-              {/* <div
+              <div
                 className="inline-block text-center py-2 px-4 w-1/2 rounded-xl rounded-t-xl custom-button-colored font-bold leading-loose mt-16"
                 onClick={() => handleButtonClick()}
               >
                 立刻報名！
-              </div> */}
-
+              </div>
+{/* 
               <div
                 className="inline-block text-center py-2 px-4 w-1/2 rounded-xl rounded-t-xl custom-button-colored font-bold leading-loose mt-16"
               >
                 報名尚未開始
-              </div>
+              </div> */}
             </div>
           </div>
         </motion.div>
