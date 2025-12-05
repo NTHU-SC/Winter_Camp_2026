@@ -74,7 +74,7 @@ const MyTable = () => {
           <th></th>
           <th>Day1 1/29 (四)</th>
           <th>Day2 1/30 (五)</th>
-          <th colSpan="2">Day3 1/31 (六)</th>
+          <th>Day3 1/31 (六)</th>
         </tr>
       </thead>
       <tbody>
@@ -83,13 +83,12 @@ const MyTable = () => {
           <td>綜四224</td>
           <td>綜四224</td>
           <td>綜四224</td>
-          <td>綜四223</td>
         </tr>
         <tr>
           <td>9:00~9:30</td>
           <td>報到</td>
           <td rowSpan="3">MPI教學</td>
-          <td rowSpan="3" colSpan="2">AI簡介與實操</td>
+          <td rowSpan="3">AI簡介與實操</td>
         </tr>
         <tr>
           <td>9:30~10:30</td>
@@ -103,8 +102,9 @@ const MyTable = () => {
           <td>12:00~13:30</td>
           <td>午餐（自理）、校園巡禮</td>
           <td>午餐（餐盒）</td>
-          <td colSpan="2">
+          <td>
             午餐（自理）、成功湖合照<br/>
+            學生叢集競賽座談會
           </td>
         </tr>
         <tr>
@@ -113,16 +113,13 @@ const MyTable = () => {
           <td rowSpan="4">
             國網中心參訪<br/>
           </td>
-          <td colSpan="2">學生叢集競賽座談會</td>
+          <td>學生叢集競賽座談會</td>
         </tr>
         <tr>
           <td>14:30~15:00</td>
           <td rowSpan="2">Pthread、OpenMP教學</td>
           <td>
             作業檢討<br/>
-          </td>
-          <td rowSpan="2">
-            {/* <br/> */}
           </td>
         </tr>
         <tr>
