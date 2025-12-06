@@ -13,7 +13,7 @@ export const YouTube = () => {
       >
         <div className="w-full flex flex-col items-center mb-12">
           <h2 className="text-4xl lg:text-5xl custom-block-big-title text-center">
-            2024 HPC x AI Summer Camp 回顧
+            2024 HPC x AI Winter Camp 回顧
           </h2>
         </div>
 
@@ -23,7 +23,7 @@ export const YouTube = () => {
               <iframe
                 className="absolute inset-0 w-full h-full"
                 src="https://www.youtube.com/embed/MoC4aTjds9E"
-                title="2025 HPC x AI Summer Camp"
+                title="2024 HPC x AI Winter Camp"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
