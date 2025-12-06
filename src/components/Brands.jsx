@@ -80,20 +80,24 @@ export const Brands = () => (
               </div>
               <div className="flex py-3 justify-center">
                 <a href="https://www.aims.org.tw/" target="_blank" rel="noopener noreferrer">
-                  <img
-                    src="/Winter_Camp_2026/logos/AiMS_logo.png"
-                    alt="AiMS_logo"
-                    className="rounded-xl  custom-border-gray"
-                  />
+                  <div className="bg-white rounded-xl p-4">
+                    <img
+                      src="/Winter_Camp_2026/logos/AiMS_logo.png"
+                      alt="AiMS_logo"
+                      className="rounded-lg"
+                    />
+                  </div>
                 </a>
               </div>
               <div className="flex py-3 justify-center">
                 <a href="https://www.amd.com/" target="_blank" rel="noopener noreferrer">
-                  <img
-                    src="/Winter_Camp_2026/logos/AMD_logo.png"
-                    alt="AMD_logo"
-                    className="rounded-xl  custom-border-gray"
-                  />
+                  <div className="bg-white rounded-xl p-4">
+                    <img
+                      src="/Winter_Camp_2026/logos/AMD_logo.png"
+                      alt="AMD_logo"
+                      className="rounded-lg"
+                    />
+                  </div>
                 </a>
               </div>
             </div>
